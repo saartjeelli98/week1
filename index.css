@@ -1,0 +1,39 @@
+body{
+    background: #D6EAF8;
+    background-size: cover;
+    font-family:'Courier New', serif;
+  }
+  .c1{
+    display:inline-block;
+  }
+  .c2{
+    display: inline block;
+  }
+  h1 .typed-out{
+     overflow: hidden;
+    border-right: .30em solid orange;
+    white-space: nowrap;
+    font-size:1.6rem;
+    width:0;
+    animation: typing 1s steps(20, end) forwards, blink .8s infinite;
+  }
+  h1 .typed-out2{
+     overflow: hidden;
+    border-right: .30em solid orange;
+    white-space: nowrap;
+    font-size:1.6rem;
+    width:0;
+    animation: typing 1s steps(20, end) forwards, blink .8s infinite;
+    animation-delay: 1.5s
+  }
+  .container{
+    display: inline-block;
+  }
+  @keyframes typing{
+    from {width:0}
+    to {width:100%}
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: black; }
+  }
